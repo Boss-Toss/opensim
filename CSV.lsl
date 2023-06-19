@@ -40,7 +40,6 @@ string unescapeString(string s)
     return final;
 }
 
-
 string List2TypeCSV(list input) { /|/ converts a list to a CSV string with type information prepended to each item
     integer     i;
     list        output;
@@ -115,9 +114,6 @@ default {
 //last_compiled 06/05/2023 15:09:06
 //mono
 
-
-
-
 string unescapeString(string s)
 {
     string final = s;
@@ -131,23 +127,12 @@ string unescapeString(string s)
     return final;
 }
 
-
-
-
-
 string strReplace(string str, string search, string replace) {
     return llDumpList2String(llParseStringKeepNulls((str = "") + str, [search], []), replace);
 }
 
 string escapeString(string s)
 {
-    
-    
-    
-    
-    
-    
-    
     string final = s;
     
     final = strReplace(final, "/", "/b");
