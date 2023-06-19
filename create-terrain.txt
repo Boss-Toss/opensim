@@ -1,3 +1,2 @@
-
 select region Welcome
 terrain fill 0
